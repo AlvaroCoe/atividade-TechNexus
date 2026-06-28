@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: mysql-db-app
+    restart: unless-stopped
+    environment:
+      # Define a senha do usuário root
+      MYSQL_ROOT_PASSWORD: root
+      # Cria automaticamente o banco de dados principal da sua API
+      MYSQL_DATABASE: db_api
+    ports:
+      # "PORTA_MÁQUINA:PORTA_CONTAINER"
+      # Usamos 3307 na máquina para evitar conflitos se você já tiver o MySQL local
+      - "3307:3306"
+    volumes:
+      # Mantém os dados salvos mesmo se o container for parado
+      - mysql_api_data:/var/lib/mysql
+
+volumes:
+  mysql_api_data:
