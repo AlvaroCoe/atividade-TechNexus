@@ -1,0 +1,45 @@
+.lista {
+  width: 100%;
+  max-width: 1200px;
+
+  overflow-x: auto;
+}
+
+.lista h2 {
+  margin-bottom: 20px;
+
+  color: #1f3c88;
+}
+
+table {
+  width: 100%;
+
+  border-collapse: collapse;
+}
+
+th {
+  background: #1f3c88;
+
+  color: white;
+
+  padding: 14px;
+}
+
+td {
+  padding: 14px;
+
+  border-bottom: 1px solid #ddd;
+
+  text-align: center;
+}
+
+tr:hover {
+  background: #f5f8ff;
+}
+
+table {
+  width: 100%;
+  min-width: 700px;
+
+  border-collapse: collapse;
+}
