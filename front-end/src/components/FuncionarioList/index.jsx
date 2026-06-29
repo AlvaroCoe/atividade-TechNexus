@@ -1,5 +1,3 @@
-import './index.css'
-
 import "./index.css";
 
 export default function FuncionarioList({ funcionarios }) {

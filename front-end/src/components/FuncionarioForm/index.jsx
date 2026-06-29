@@ -2,7 +2,6 @@ import './index.css'
 
 import { useState } from "react";
 import api from "../../service/api";
-import "./index.css";
 
 export default function FuncionarioForm({ atualizarLista }) {
   const [funcionario, setFuncionario] = useState({

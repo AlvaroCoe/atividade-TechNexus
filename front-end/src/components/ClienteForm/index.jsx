@@ -2,7 +2,6 @@ import './index.css'
 
 import { useState } from "react";
 import api from "../../service/api";
-import "./index.css";
 
 export default function ClienteForm({ atualizarLista }) {
   const [cliente, setCliente] = useState({

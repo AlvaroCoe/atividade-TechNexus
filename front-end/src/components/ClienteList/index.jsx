@@ -1,7 +1,5 @@
 import './index.css'
 
-import "./index.css";
-
 export default function ClienteList({ clientes }) {
   return (
     <div className="lista">
