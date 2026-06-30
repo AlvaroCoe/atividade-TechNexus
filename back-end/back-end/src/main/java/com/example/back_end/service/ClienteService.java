@@ -23,8 +23,7 @@ public class ClienteService {
                 .map(cliente -> new ClienteResponseDTO(
                         cliente.getNome(),
                         cliente.getEmail(),
-                        cliente.getTelefone(),
-                        cliente.getCpf()
+                        cliente.getTelefone()
                 ))
                 .toList();
     }
