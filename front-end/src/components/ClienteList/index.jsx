@@ -11,7 +11,7 @@ export default function ClienteList({ clientes }) {
             <th>Nome</th>
             <th>Email</th>
             <th>Telefone</th>
-            <th>CPF</th>
+          
           </tr>
         </thead>
 
@@ -21,7 +21,7 @@ export default function ClienteList({ clientes }) {
               <td>{cliente.nome}</td>
               <td>{cliente.email}</td>
               <td>{cliente.telefone}</td>
-              <td>{cliente.cpf}</td>
+              
             </tr>
           ))}
         </tbody>
